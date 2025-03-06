@@ -182,19 +182,26 @@ a.sidebar-link {
     background-color: var(--bs-body-color);
 }
 
-html[data-bs-theme="dark"] .theme-toggle .fa-sun,
-html[data-bs-theme="light"] .theme-toggle .fa-moon {
+html[data-bs-theme="dark"] .theme-toggle .bi-sun {
     cursor: pointer;
     padding: 10px;
     display: block;
     font-size: 1.25rem;
-    color: #FFF;
+    color: #000000;
 }
 
-html[data-bs-theme="dark"] .theme-toggle .fa-moon {
+html[data-bs-theme="light"] .theme-toggle .bi-moon {
+    cursor: pointer;
+    padding: 10px;
+    display: block;
+    font-size: 1.25rem;
+    color: #ffffff;
+}
+
+html[data-bs-theme="dark"] .theme-toggle .bi-moon {
     display: none;
 }
 
-html[data-bs-theme="light"] .theme-toggle .fa-sun {
+html[data-bs-theme="light"] .theme-toggle .bi-sun {
     display: none;
 }
